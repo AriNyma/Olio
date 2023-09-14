@@ -1,3 +1,3 @@
-# Olio
+# Olio-ohjelmointi
 
 ## Olio kurssin tehtäviä
