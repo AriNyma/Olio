@@ -19,5 +19,6 @@ public class synttariKoodi {
             alku++;
             i++;
         }
+        vuosi.close();
     }
 }
