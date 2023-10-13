@@ -25,13 +25,10 @@ public class Elokuva {
         String nimi = lukija.nextLine();
 
         System.out.println("Anna elokuvan ikäraja: ");
-        String ikaraja = lukija.nextLine();
-        
+        int ikaraja;
         try {
-            ikaraja != null;
-        }
-        catch (Exception e)
-        {
+            ikaraja = Integer.parseInt(lukija.nextLine());
+        } catch (NumberFormatException e) {
             ikaraja = 18;
         }
 
