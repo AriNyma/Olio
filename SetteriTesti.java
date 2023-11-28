@@ -1,7 +1,8 @@
 public class SetteriTesti {
 
     public static void main(String[] args) {
-        Henkilo henkilo_olio = new Henkilo("Matti");
+        SetteriTesti st = new SetteriTesti();
+        Henkilo henkilo_olio = st.new Henkilo("Matti", 34);
         System.out.println("Henkilön nimi on " + henkilo_olio.getNimi() + " ja ikä on " + henkilo_olio.getIka());
         //henkilo_olio.setNimi("Aamos");    
     }
