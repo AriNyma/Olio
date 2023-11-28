@@ -61,7 +61,7 @@ class Opettaja extends Henkilo{
 
 }
 
-public class Abbstrakti {
+public class Abstrakti {
     public static void main(String[] args) {
         
         Opiskelija opiskelija = new Opiskelija("Student One", 1990, false);
