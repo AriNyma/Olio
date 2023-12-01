@@ -17,6 +17,7 @@ public class LukuKirjoitus {
             kirjoitaTiedostoon(syote);
             //Tulostetaan tiedosto
             lueTiedosto();
+            kirjoitus.close();
         }
     }
 
